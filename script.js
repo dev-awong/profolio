@@ -24,3 +24,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+//Auto change slides every 3 seconds
+let slideTimer = setInterval(function() {
+  plusSlides(1);
+}, 3000);
+
+// Pause the timer when user interacts with the slideshow
+document.querySelectorAll('.prev, .next, .dot').forEach(function(element) {
+  element.addEventListener('click', function() {
+    clearInterval(slideTimer);
+    slideTimer = setInterval(function() {
+      plusSlides(1);
+    }, 5000);
+  });
+});
