@@ -13,6 +13,7 @@ position: relative;
 }
 #home > * {
     transform: skewY(2deg); /* Counter skew for children to maintain horizontal appearance */
+    padding-top: 80px;
 }
 
 .next {
@@ -24,16 +25,21 @@ position: relative;
 .fix-angle{
     transform: skewY(2deg); 
 }
-.about {
+/* .about {
     background-color: #4F5165;
     padding-top: 1px;
-    position: relative; /* Ensure .about is stacked above the skewed background */
-    z-index: 1; /* Ensure .about is stacked above the pseudo-element */
+    position: relative; 
+    z-index: 1; 
     height: 40vh;
-}
+} */
 
 .center {
     text-align: center;
+    padding-bottom: 30px;
+    display: block;
+    font-family: 'Source Sans Pro',sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 /* Slideshow CSS */
@@ -51,6 +57,7 @@ position: relative;
 
 .slideshow-content {
     display: flex; /* Use flexbox for layout */
+    background-color: #9EA3B0;
 }
 
 .slideshow-image {
@@ -71,8 +78,8 @@ position: relative;
     cursor: pointer;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     width: auto;
-    margin-top: -22px;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -124,10 +131,10 @@ position: relative;
     background-color: #717171;
 }
 
-.fade {
+/* .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-}
+} */
 
 @keyframes fade {
     from {opacity: .4}
@@ -142,6 +149,7 @@ position: relative;
     background-color: #454545;
     padding: 10px 0;
     z-index: 1000;
+    padding: 25px 0;
 }
 
 .container {
@@ -164,21 +172,65 @@ position: relative;
 .container span a {
     text-decoration: none;
     color: white;
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: transform .3s;
 }
 
+.container span a:hover{
+    color: #E4C3AD;
+    transform: scale(1.1); /* Example transformation on hover */
+}
 .imgs {
     padding: 5px 0px 1px 5px;
 }
 
-.about {
+#about {
     background-color: #4F5165;
     padding-top: 1px;
     position: relative;
     z-index: -1;
     transform: skewY(-2deg);
     margin-top: -1px;
+    height: 110vh;
 }
-
-.center {
-    text-align: center;
+.sep {
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 5%;
+    margin-bottom: 25px;
+}
+.head-sub{
+    margin-bottom: 0px;
+    height: 50px;
+    font-size: 2rem;
+}
+.desc-sec{
+    font-size: 1rem;
+    max-width: 70rem;
+    display: block;
+    margin: auto;
+    line-height: 1.7;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    letter-spacing: 1px;
+}
+.about-title{
+    margin-bottom: 5px;
+}
+.about-para{
+    margin-bottom: 5px;
+}
+.about-me{
+    font-family: 'Source Sans Pro',sans-serif;
+    padding-left: 5rem;
+}
+.about-writing{
+    line-height: 1.7;
 }

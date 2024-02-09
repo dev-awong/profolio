@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,8 @@
         <div class="container">
             <span><a href="index.html">Home</a></span>
             <span><a href="#about">About</a></span>
-            <span><a href="#exp">Work Experience</a></span>
             <span><a href="#projects">Projects</a></span>
+            <span><a href="#contact">Contact Me</a></span>
             <span><a href="resume/resume.pdf" download target="_blank">Resume</a></span>
         </div>
     </header>
@@ -26,7 +26,7 @@
                 <div class="mySlides fade">
                     <div class="slideshow-content">
                         <div class="slideshow-image">
-                            <img src="images/test.jpeg" style="width:100%" class="imgs">
+                            <img src="images/test.jpeg" style="width:100%" class="imgs" alt="test">
                         </div>
                         <div class="slideshow-text">
                             <ul>
@@ -43,7 +43,7 @@
                 <div class="mySlides fade">
                     <div class="slideshow-content">
                         <div class="slideshow-image">
-                            <img src="images/test.jpeg" style="width:100%" class="imgs">
+                            <img src="images/test.jpeg" style="width:100%" class="imgs" alt="test">
                         </div>
                         <div class="slideshow-text">
                             <ul>
@@ -59,7 +59,7 @@
                 <div class="mySlides fade">
                     <div class="slideshow-content">
                         <div class="slideshow-image">
-                            <img src="images/test.jpeg" style="width:100%" class="imgs">
+                            <img src="images/test.jpeg" style="width:100%" class="imgs" alt="test">
                         </div>
                         <div class="slideshow-text">
                             <ul>
@@ -88,25 +88,47 @@
     </div>
     <!-- ABOUT SEC -->
     
-    <div class="about">
-        <div class="fix-angle">
-        <h2 class="center">About Me</h2>
-        <p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quaerat nihil. 
-            Accusamus, maiores animi modi quae nihil sint iure facere ducimus quaerat corrupti labore 
-            impedit doloremque asperiores, cupiditate libero laborum!
-        </p>
+    <div id="about">
+    <div class="fix-angle">
+        <div class="center">
+        <h2 class="head-sub">About Me</h2>
+        <hr class="sep">
+        <span class="desc-sec">In this section, you'll discover more about me, my background, and my proficiency in various technical skills.</span>
+        </div>
+        <!-- Contents -->
+        <div class="about-content">
+            <!-- Basic info paragraph -->
+            <div class="about-me">
+                <h3 class="about-title">A little about me</h3>
+                <div class="about-writing">
+                    <p class="about-para">
+                        Hello, I'm Austin, a dedicated developer hailing from the vibrant city of Vancouver, Canada. My journey into the world of 
+                        technology began at the Langara College before attending the University of British Columbia, where I pursued a Bachelor's degree 
+                        in Computer Science. Outside of coding, I find joy in various activities such as going on invigorating runs, hitting the gym, immersing 
+                        myself in PC games, and exploring new culinary delights through cooking experiments
+                    </p>
+                    <p class="about-para">
+                        I'm driven by a passion for continuous growth and learning. I'm on the lookout for exciting career opportunities that allow me to expand 
+                        my skill set, tackle new challenges, and collaborate with like-minded professionals. Whether it's developing innovative solutions  or 
+                        contributing to a dynamic team environment, I'm eager to seize the chance to make meaningful contributions and further my expertise.
+                    </p>
+                    <p class="about-para">
+                        If you have an opportunity that aligns with my aspirations or if you'd like to explore potential collaborations, I'm just a message away! 
+                        Feel free to reach out and share your ideas, projects, or job openings. I'm always open to new possibilities and enthusiastic about connecting 
+                        with fellow enthusiasts in the tech community. Let's embark on this journey together &#128512
+                    </p>
+                </div>
+            </div>
+            <!-- Skillsets -->
+            <div>
+
+            </div>
+        </div>
+        
     </div>
+    
     </div>
-    <div class="exp">
-        <h2>Work Experience</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quaerat nihil. 
-            Accusamus, maiores animi modi quae nihil sint iure facere ducimus quaerat corrupti labore 
-            impedit doloremque asperiores, cupiditate libero laborum!
-        </p>
-    </div>
-    <div class="projects">
+    <div id="projects">
         <h2>Projects</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quaerat nihil. 
@@ -115,9 +137,9 @@
         </p>
     </div>
     <script src="script.js"></script>
-    <footer>
+    <footer id="contact">
         <div>
-            <header>Contact Me</header>
+            <h2>Contact Me</h2>
         </div>
     </footer>
 </body>
