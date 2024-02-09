@@ -194,7 +194,7 @@ position: relative;
     z-index: -1;
     transform: skewY(-2deg);
     margin-top: -1px;
-    height: 110vh;
+    min-height: 110vh;
 }
 .sep {
     height: 10px;
@@ -233,4 +233,26 @@ position: relative;
 }
 .about-writing{
     line-height: 1.7;
+}
+.skills-boxes-container{
+    background-color: #bbb;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.skills-boxes{
+    padding-top: 10px;
+    letter-spacing: 1px;
+    
+}
+
+#projects {
+    background-color: #5a5c73;
+    padding-top: 1px;
+    position: relative;
+    z-index: -1;
+    transform: skewY(-2deg);
+    margin-top: -20px;
+    min-height: 110vh;
 }
