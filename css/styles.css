@@ -365,3 +365,19 @@ input[type="submit"]:hover {
     text-decoration: none;
     color: #0056b3;
 }
+@media screen and (max-width: 1200px) {
+    .about-content {
+      display: block; /* Change to block layout for smaller screens */
+    }
+  
+    .about-me,
+    .skills-container {
+      width: 100%; /* Make each section take full width */
+    }
+    .about-writing{
+        margin-right: 50px;
+    }
+    .skills-container{
+        padding-left: 76px;
+    }
+}
