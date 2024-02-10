@@ -278,6 +278,7 @@ body{
     text-align: center;
     background-color: #007bff;
     margin-top: 75px;
+    height: 10vh;
 }
 .button-content{
     padding: 10px;
@@ -312,7 +313,7 @@ body{
 
     max-width: 800px; 
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 15px;
 }
 
 .form-group {
