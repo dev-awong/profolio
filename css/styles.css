@@ -189,9 +189,9 @@ position: relative;
 
 #about {
     background-color: #4F5165;
-    padding-top: 1px;
+    padding-top: 20px;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
     transform: skewY(-2deg);
     margin-top: -1px;
     min-height: 90vh;
@@ -243,7 +243,9 @@ position: relative;
     border-radius: 10px;
     line-height: 50px;
     margin-right: 10px;
+    font-family: 'Source Sans Pro',sans-serif;
 }
+/* ADD COLOURS FOR HIGHLIGHT */
 .skills-boxes{
     padding-top: 10px;
     letter-spacing: 1px;
@@ -251,10 +253,109 @@ position: relative;
 
 #projects {
     background-color: #5a5c73;
-    padding-top: 1px;
+    padding-top: 20px;
     position: relative;
     z-index: -1;
     transform: skewY(-2deg);
     margin-top: -20px;
     min-height: 110vh;
+}
+#contact {
+    background-color: #7f819b;
+    padding-top: 1px;
+    position: relative;
+    /* z-index: -1; */
+    transform: skewY(-2deg);
+    margin-top: -20px;
+    min-height: 60vh;
+    transform-origin: top; /* Set transform origin to top */
+    margin-bottom: -20px; /* Compensate for the skew effect at the bottom */
+}
+body{
+    background-color: #7f819b;
+}
+.footer-content{
+    text-align: center;
+    background-color: #007bff;
+    margin-top: 75px;
+}
+.button-content{
+    padding: 10px;
+    background-color: #bbb;
+    border-radius: 5px;
+}
+.button-content:hover{
+    opacity: 0.8;
+}
+.button-container{
+    padding-top: 25px;
+}
+.remove-dec{
+    text-decoration: none;
+    color: #454545;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-content-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Adjust width as needed */
+    box-shadow: 6px 6px #5a5c73;
+    font-family: 'Source Sans Pro',sans-serif;
+    word-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px; /* Adjust height as needed */
+    overflow-y: scroll;
+    resize: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.form-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.form-group label {
+    margin-bottom: 7px;
+    display: block;
+}
+.contact-anchor{
+    text-decoration: none;
+    color: #0056b3;
 }

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header id="jumps">
+    <nav id="jumps">
         <div class="container">
             <span><a href="index.html">Home</a></span>
             <span><a href="#about">About</a></span>
@@ -18,7 +18,7 @@
             <span><a href="#contact">Contact Me</a></span>
             <span><a href="resume/resume.pdf" download target="_blank">Resume</a></span>
         </div>
-    </header>
+    </nav>
 
     <div id="home">
         <div id="home-wrapper">
@@ -131,6 +131,9 @@
                             with fellow enthusiasts in the tech community. Let's embark on this journey together
                             &#128512
                         </p>
+                        <div class="button-container">
+                            <span class="button-content"><a href="#contact" class="remove-dec">Contact Me</a></span>
+                        </div>
                     </div>
                 </div>
                 <!-- Skillsets -->
@@ -148,7 +151,7 @@
                         <span class="skills-boxes-container">Linux</span>
                         <span class="skills-boxes-container">MySQL</span>
                         <span class="skills-boxes-container">R</span>
-                        <span class="skills-boxes-container">Windows OS</span>
+                        <span class="skills-boxes-container">WindowsOS</span>
                     </div>
                 </div>
             </div>
@@ -163,21 +166,61 @@
                 <span class="desc-sec">In this section, you'll gain insight into projects where I've made contributions and 
                     those I've created from scratch</span>
             </div>
-            <h2>Projects</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quaerat nihil.
-                Accusamus, maiores animi modi quae nihil sint iure facere ducimus quaerat corrupti labore
-                impedit doloremque asperiores, cupiditate libero laborum!
-            </p>
+            <div class="project-content-container">
+                <div class="project-img">
+
+                </div>
+                <div class="project-desc">
+
+                </div>
+            </div>
+
         </div>
     </div>
-    <span><a href="#about">About</a></span>
-    <script src="script.js"></script>
-    <footer id="contact">
-        <div>
-            <h2>Contact Me</h2>
+    <!-- CONTACT -->
+    <div id="contact">
+        <div class="fix-angle">
+            <div class="center">
+                <h2 class="head-sub">Contact Me</h2>
+                <hr class="sep">
+                <span class="desc-sec">In this section, you'll be able to get in contact with me. Fill out the form the form and I'll
+                    get back to you as soon as possible. You can also reach me on <strong><a href="https://www.linkedin.com/in/austin-wong-8a900916a/" target="_blank" class="contact-anchor">Linkedin</a>
+                    </strong> as well
+                </span>
+            </div>
+            <div class="form-center">
+                <div class="contact-content-container">
+                    
+                    <form class="form-container" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="591d72dd-9339-4293-a28b-91b3e3f2f434">
+                        <div class="form-group">
+                            <label for="full-name">Your Name</label>
+                            <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit" required>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
         </div>
+    </div>
+    
+    <footer class="footer-content">
+        <span>copyright something</span>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
