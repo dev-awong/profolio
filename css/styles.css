@@ -303,12 +303,16 @@ body{
 
 .contact-content-container {
     background-color: #f2f2f2;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
     width: 300px; /* Adjust width as needed */
     box-shadow: 6px 6px #5a5c73;
     font-family: 'Source Sans Pro',sans-serif;
     word-spacing: 1px;
+
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .form-group {
@@ -349,7 +353,8 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    /* height: 50vh;
+    margin-top: 50px; */
 }
 .form-group label {
     margin-bottom: 7px;
