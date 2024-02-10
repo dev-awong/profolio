@@ -6,14 +6,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Austin Wong | Dev</title>
 </head>
 
 <body>
-    
+
     <nav id="jumps">
-        <div>
-            <P>My name</P>
+        <div class="logo">
+            <a href="#">
+                <img class="web-img" src="images/my-pic.png" alt="My Logo">
+            </a>
+            <span class="img-caption">Austin Wong</span>
         </div>
         <div class="container">
             <span><a href="index.html">Home</a></span>
@@ -23,6 +26,7 @@
             <span><a href="resume/resume.pdf" download target="_blank">Resume</a></span>
         </div>
     </nav>
+
 
     <div id="home">
         <div id="home-wrapper">
@@ -93,7 +97,6 @@
         </div>
     </div>
     <!-- ABOUT SEC -->
-
     <div id="about">
         <div class="fix-angle">
             <div class="center">
@@ -133,7 +136,7 @@
                             Feel free to reach out and share your ideas, projects, or job openings. I'm always open to
                             new possibilities and enthusiastic about connecting
                             with fellow enthusiasts in the tech community. Let's embark on this journey together
-                            &#128512
+                            &#128512;
                         </p>
                         <div class="button-container">
                             <span class="button-content"><a href="#contact" class="remove-dec">Contact Me</a></span>
@@ -167,15 +170,27 @@
             <div class="center">
                 <h2 class="head-sub">Projects</h2>
                 <hr class="sep">
-                <span class="desc-sec">In this section, you'll gain insight into projects where I've made contributions and 
-                    those I've created from scratch</span>
+                <span class="desc-sec">In this section, you'll gain insight into projects where I've made contributions
+                    and those I've created from scratch</span>
             </div>
+            <!-- fix dots -->
+            <hr class="dotted-lines">
             <div class="project-content-container">
-                <div class="project-img">
+                <div>
+                    <div class="project-img">
+                        <img src="images/helpya.png" alt="helpya-logo">
+                    </div>
+                    <div class="project-desc">
+                        <p>
+                            Contributed in the development of HelpYa's backend, a trade service app, by crafting a resilient RESTful API 
+                            using Node.js. This enabled crucial features like secure login, user management, and smooth monetary transactions. 
+                            To ensure everything worked seamlessly, I conducted thorough testing, from checking individual functionalities with 
+                            endpoint tests to simulating real-world scenarios with integration tests. And not to forget, I also took charge of 
+                            creating a sturdy database to keep everything running smoothly. In addition to designing and implementing a robust 
+                            database to securely store data, I meticulously conducted unit testing to verify its functionality and reliability.
+                        </p>
 
-                </div>
-                <div class="project-desc">
-
+                    </div>
                 </div>
             </div>
 
@@ -187,14 +202,17 @@
             <div class="center">
                 <h2 class="head-sub">Contact Me</h2>
                 <hr class="sep">
-                <span class="desc-sec">In this section, you'll be able to get in contact with me. Fill out the form the form and I'll
-                    get back to you as soon as possible. You can also reach me on <strong><a href="https://www.linkedin.com/in/austin-wong-8a900916a/" target="_blank" class="contact-anchor">Linkedin</a>
+                <span class="desc-sec">In this section, you'll be able to get in contact with me. Fill out the form the
+                    form and I'll
+                    get back to you as soon as possible. You can also reach me on <strong><a
+                            href="https://www.linkedin.com/in/austin-wong-8a900916a/" target="_blank"
+                            class="contact-anchor">Linkedin</a>
                     </strong> as well
                 </span>
             </div>
             <div class="form-center">
                 <div class="contact-content-container">
-                    
+
                     <form class="form-container" action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="591d72dd-9339-4293-a28b-91b3e3f2f434">
                         <div class="form-group">
@@ -203,24 +221,25 @@
                         </div>
                         <div class="form-group">
                             <label for="email">Your email</label>
-                            <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
+                            <input type="email" id="email" name="email" placeholder="Email" required
+                                autocomplete="email">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="message">Your Message</label>
                             <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Submit" required>
+                            <input type="submit" value="Submit">
                         </div>
-                        
+
                     </form>
                 </div>
             </div>
-            
+
         </div>
     </div>
-    
+
     <footer class="footer-content">
         <span>Copyright &copy;2024. Created by Austin Wong</span>
     </footer>
