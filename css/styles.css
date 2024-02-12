@@ -145,53 +145,6 @@ section{
     box-sizing:border-box;
 }
 
-.slideshow-container {
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-    background-color: #fff;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 10px;
-}
-
-.slideshow-content {
-    display: flex; /* Use flexbox for layout */
-    background-color: #9EA3B0;
-}
-
-.slideshow-image {
-    flex: 1; /* Take up remaining space */
-}
-
-.slideshow-text {
-    flex: 1; /* Take up remaining space */
-    padding: 20px; /* Add padding for spacing */
-    box-sizing: border-box; /* Include padding in width calculation */
-}
-
-.mySlides {
-    display: none;
-}
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
 #jumps {
     position: fixed;
     top: 0;
@@ -443,11 +396,11 @@ input[type="submit"]:hover {
 .project-content{
     padding-bottom: 10px;
 }
-.dotted-lines {
-    border: none;
-    border-top: 8px dotted black;
-    width: 1%;
-    padding-top: 5px;
+.box-arrow {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
 }
 .project-desc{
     text-align: center;
@@ -642,10 +595,3 @@ section{
     }
 
 }
- /* @media screen and (max-width: 1450px) {
-    .contact-btn-box{
-        text-align: center;
-        margin: auto;
-        display: block;
-    }
- } */
