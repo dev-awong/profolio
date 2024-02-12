@@ -279,12 +279,12 @@ section{
 }
 #contact {
     background-color: #645C70;
-    padding-top: 1px;
     position: relative;
     margin-top: -20px;
     min-height: 60vh;
     transform-origin: top;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .button-content{
