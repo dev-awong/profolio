@@ -517,7 +517,10 @@ section{
 }
 .contact-btn-box .contact-btn:hover:before{
     width: 100%;
-
+}
+.footer-content p{
+    width: 50%;
+    margin: auto;
 }
 /* KEYFRAMES ANIMATION */
 @keyframes homeBgText{
