@@ -318,9 +318,7 @@ section{
     max-width: 800px;
     margin: 5px auto;
     padding: 15px;
-    height: 55vh;
     color: #978FA3;
-    
 }
 .form-group {
     margin-bottom: 15px;
@@ -354,7 +352,7 @@ input[type="submit"] {
     background-color: #007bff; /*colour button*/
     color: #fff;
     cursor: pointer;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 input[type="submit"]:hover {
@@ -364,6 +362,9 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.form-container{
+    margin: auto;
 }
 .form-group label {
     margin-bottom: 7px;
@@ -411,18 +412,13 @@ input[type="submit"]:hover {
 .project-desc{
     text-align: center;
     letter-spacing: 1px;
-    margin-left: 75px;
-    margin-right: 75px;
     line-height: 35px;
-    margin-top: -10px;
+    margin: -10px 75px 35px 75px;
 }
 section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
-/* .footer-container{
-    background-color: #
-} */
 .footer-content{
     background-color: #6E657B;
     padding-top: 10px;
