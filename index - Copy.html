@@ -118,7 +118,7 @@
             <!-- fix dots -->
             <!-- <hr class="dotted-lines"> -->
             <!-- <span class="dotted-lines"></span> -->
-            <span class="box-arrow"><i class='bx bx-down-arrow-alt'></i></span>
+            <!-- <span class="box-arrow"><i class='bx bx-down-arrow-alt'></i></span>
             <div class="project-content-container">
                 <div class="project-content">
                     <div class="project-img">
@@ -148,8 +148,8 @@
                         <img src="images/py-gui.png" alt="py-gui-icon">
                     </div>
                     <h2 class="project-title">Python Supportive Chatbot</h2>
-                    <div class="project-desc">
-                        <p>
+                    <div class="project-desc"> -->>
+                        <!-- <p>
                             Developed a psychiatrist chatbot centered on addressing loneliness,
                             engaging users in conversations akin to those with a psychiatrist, primarily focusing on
                             discussing and understanding loneliness through written text interactions. The chatbot
@@ -174,9 +174,52 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
     <!-- CONTACT -->
+    <div id="contact">
+        <div class="fix-spacing">
+            <div class="center">
+                <h2 class="head-sub">Contact Me</h2>
+                <hr class="sep">
+                <span class="desc-sec">In this section, you'll be able to get in contact with me. Fill out the form the
+                    form and I'll
+                    get back to you as soon as possible. You can also reach me on <strong><a
+                            href="https://www.linkedin.com/in/austin-wong-8a900916a/" target="_blank"
+                            class="contact-anchor">Linkedin</a>
+                    </strong> as well
+                </span>
+            </div>
+            <div class="form-center">
+                <div class="contact-content-container">
 
+                    <form class="form-container" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="591d72dd-9339-4293-a28b-91b3e3f2f434">
+                        <div class="form-group" id="first-contact">
+                            <label for="full-name">Your Name</label>
+                            <input type="text" id="full-name" name="full-name" placeholder=" Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required
+                                autocomplete="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Start typing ..." rows="5"
+                                required></textarea>
+                        </div>
+                        <div class="form-group" id="submit-button">
+                            <input type="submit" value="Submit">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
     <footer class="footer-container">
         <div class="footer-content">
             <span><i>Copyright &copy; 2024.</i> Created by Austin Wong</span>
